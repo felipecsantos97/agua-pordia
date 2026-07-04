@@ -1,0 +1,19 @@
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+
+        Scanner scanner = new Scanner(System.in);
+        double multiplicationvalue = 35;
+        System.out.println("=== CALCULADORA DE AGUA POR DIA. ===");
+        System.out.println("Coloque seu peso em KGs (aproximadamente)");
+        int peso = scanner.nextInt();
+        double aguapordia = multiplicationvalue * peso / 1000;
+
+        System.out.print("Water per day:");
+        System.out.println(aguapordia);
+        scanner.close();
+
+
+    }
+}
